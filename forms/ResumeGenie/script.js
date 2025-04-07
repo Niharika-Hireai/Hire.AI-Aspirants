@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Show spinner while fetching data
             document.getElementById("spinner").style.display = "block";
 
-            const response = await fetch("https://resume-genie-uamm.onrender.com/analyze-resumes/", {
+            const response = await fetch("https://resumegenie-c0pc.onrender.com/analyze-resumes/", {
                 method: "POST",
                 body: formData,
             });
